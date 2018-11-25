@@ -7,20 +7,12 @@
 -cp C:/Armory/armsdk/iron
 -D C:/Armory/armsdk/armory
 -D C:/Armory/armsdk/iron
--D arm_deferred
--D arm_csm
--D rp_hdr
--D rp_renderer=Deferred
--D rp_depthprepass
+-D rp_renderer=Forward
 -D rp_shadowmap
 -D rp_shadowmap_size=1024
 -D rp_background=World
--D rp_render_to_texture
--D rp_compositornodes
--D rp_antialiasing=SMAA
--D rp_supersampling=1
 -D rp_gi=Off
--D rp_ssgi=SSAO
+-D rp_ssgi=Off
 -D arm_shaderload
 -D arm_soundcompress
 -D arm_skin
@@ -48,7 +40,7 @@
 -D kha
 -D kha_version=1807
 -js krom\krom.js.temp
-arm.AnimationPlayer
---macro keep('arm.AnimationPlayer')
+arm.Player
+--macro keep('arm.Player')
 -debug
 -main Main

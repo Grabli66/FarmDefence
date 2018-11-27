@@ -1,0 +1,33 @@
+#version 100
+
+uniform mediump mat4 W;
+uniform mediump mat3 N;
+uniform mediump vec3 hdim;
+uniform mediump vec3 dim;
+uniform mediump mat4 WVP;
+uniform mediump vec3 eye;
+uniform mediump int lightShadow;
+uniform mediump mat4 LWVP;
+
+attribute mediump vec3 pos;
+varying mediump vec3 wposition;
+varying mediump vec3 wnormal;
+attribute mediump vec3 nor;
+varying mediump vec3 bposition;
+varying mediump vec3 eyeDir;
+varying mediump vec4 lightPosition;
+
+void main()
+{
+    mediump vec4 spos = vec4(pos, 1.0);
+    wposition = vec4(W * spos).xyz;
+    wnormal = normalize(N * nor);
+    bposition = (spos.xyz + hdim) / dim;
+    gl_Position = WVP * spos;
+    eyeDir = eye - wposition;
+    if (lightShadow == 1)
+    {
+        lightPosition = LWVP * spos;
+    }
+}
+

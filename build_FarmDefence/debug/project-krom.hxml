@@ -3,16 +3,21 @@
 -cp C:\Workspace\FarmDefence\Sources
 -cp C:\Armory\armsdk\armory\Sources
 -cp C:\Armory\armsdk\iron\Sources
+-cp C:\Armory\armsdk\lib\haxebullet\Sources
 -cp C:/Armory/armsdk/armory
 -cp C:/Armory/armsdk/iron
+-cp C:/Armory/armsdk/lib/haxebullet
 -D C:/Armory/armsdk/armory
 -D C:/Armory/armsdk/iron
+-D C:/Armory/armsdk/lib/haxebullet
 -D rp_renderer=Forward
 -D rp_shadowmap
 -D rp_shadowmap_size=1024
 -D rp_background=World
 -D rp_gi=Off
 -D rp_ssgi=Off
+-D arm_physics
+-D arm_bullet
 -D arm_shaderload
 -D arm_soundcompress
 -D arm_skin
@@ -40,6 +45,10 @@
 -D kha
 -D kha_version=1807
 -js krom\krom.js.temp
+armory.trait.physics.bullet.RigidBody
+--macro keep('armory.trait.physics.bullet.RigidBody')
+armory.trait.physics.bullet.PhysicsWorld
+--macro keep('armory.trait.physics.bullet.PhysicsWorld')
 arm.Player
 --macro keep('arm.Player')
 -debug

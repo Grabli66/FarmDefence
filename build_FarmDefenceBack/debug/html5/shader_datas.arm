@@ -1,0 +1,1 @@
+¬shader_datas‘‚¤nameªworld_pass¨contexts‘‰¤nameªworld_pass©constants’ƒ¤type¤mat4¤name¤SMVP¤link®_skydomeMatrixƒ¤type¤vec3¤name­backgroundCol¤link®_backgroundCol­texture_units°vertex_structure’‚¤name£pos¤size‚¤name£nor¤size­vertex_shader¯world_pass.vert«depth_writeÂ¬compare_mode¤less¯fragment_shader¯world_pass.frag©cull_mode©clockwise

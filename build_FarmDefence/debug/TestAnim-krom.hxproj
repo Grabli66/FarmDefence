@@ -21,8 +21,10 @@
 		<class path="..\..\Sources" />
 		<class path="..\..\..\..\Armory\armsdk\armory\Sources" />
 		<class path="..\..\..\..\Armory\armsdk\iron\Sources" />
+		<class path="..\..\..\..\Armory\armsdk\lib\haxebullet\Sources" />
 		<class path="..\..\..\..\Armory\armsdk\armory" />
 		<class path="..\..\..\..\Armory\armsdk\iron" />
+		<class path="..\..\..\..\Armory\armsdk\lib\haxebullet" />
 	</classpaths>
 	<!-- Build options -->
 	<build>
@@ -31,7 +33,7 @@
 		<option noInlineOnDebug="False" />
 		<option mainClass="Main" />
 		<option enabledebug="False" />
-		<option additional="-D C:/Armory/armsdk/armory&#xA;-D C:/Armory/armsdk/iron&#xA;-D rp_renderer=Forward&#xA;-D rp_shadowmap&#xA;-D rp_shadowmap_size=1024&#xA;-D rp_background=World&#xA;-D rp_gi=Off&#xA;-D rp_ssgi=Off&#xA;-D arm_shaderload&#xA;-D arm_soundcompress&#xA;-D arm_skin&#xA;-D arm_particles_gpu&#xA;-D arm_particles&#xA;-D arm_fast&#xA;-D js-classic&#xA;-D sys_krom&#xA;-D sys_g1&#xA;-D sys_g2&#xA;-D sys_g3&#xA;-D sys_g4&#xA;-D sys_a1&#xA;-D sys_a2&#xA;-D kha_js&#xA;-D kha_krom&#xA;-D kha_krom_js&#xA;-D kha_opengl&#xA;-D kha_g1&#xA;-D kha_g2&#xA;-D kha_g3&#xA;-D kha_g4&#xA;-D kha_a1&#xA;-D kha_a2&#xA;-D kha&#xA;-D kha_version=1807&#xA;-D kha_output=&quot;C:\Workspace\FarmDefence\build_FarmDefence\debug\krom\krom.js.temp&quot;&#xA;arm.Player&#xA;--macro keep('arm.Player')&#xA;-debug&#xA;" />
+		<option additional="-D C:/Armory/armsdk/armory&#xA;-D C:/Armory/armsdk/iron&#xA;-D C:/Armory/armsdk/lib/haxebullet&#xA;-D rp_renderer=Forward&#xA;-D rp_shadowmap&#xA;-D rp_shadowmap_size=1024&#xA;-D rp_background=World&#xA;-D rp_gi=Off&#xA;-D rp_ssgi=Off&#xA;-D arm_physics&#xA;-D arm_bullet&#xA;-D arm_shaderload&#xA;-D arm_soundcompress&#xA;-D arm_skin&#xA;-D arm_particles_gpu&#xA;-D arm_particles&#xA;-D arm_fast&#xA;-D js-classic&#xA;-D sys_krom&#xA;-D sys_g1&#xA;-D sys_g2&#xA;-D sys_g3&#xA;-D sys_g4&#xA;-D sys_a1&#xA;-D sys_a2&#xA;-D kha_js&#xA;-D kha_krom&#xA;-D kha_krom_js&#xA;-D kha_opengl&#xA;-D kha_g1&#xA;-D kha_g2&#xA;-D kha_g3&#xA;-D kha_g4&#xA;-D kha_a1&#xA;-D kha_a2&#xA;-D kha&#xA;-D kha_version=1807&#xA;-D kha_output=&quot;C:\Workspace\FarmDefence\build_FarmDefence\debug\krom\krom.js.temp&quot;&#xA;armory.trait.physics.bullet.RigidBody&#xA;--macro keep('armory.trait.physics.bullet.RigidBody')&#xA;armory.trait.physics.bullet.PhysicsWorld&#xA;--macro keep('armory.trait.physics.bullet.PhysicsWorld')&#xA;arm.Player&#xA;--macro keep('arm.Player')&#xA;-debug&#xA;" />
 	</build>
 	<!-- haxelib libraries -->
 	<haxelib>

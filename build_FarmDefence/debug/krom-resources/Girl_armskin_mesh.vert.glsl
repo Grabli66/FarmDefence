@@ -3,7 +3,7 @@
 #extension GL_ARB_shading_language_420pack : require
 #endif
 
-uniform vec4 skinBones[66];
+uniform vec4 skinBones[56];
 uniform mat4 W;
 uniform mat3 N;
 uniform mat4 WVP;

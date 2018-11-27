@@ -1614,9 +1614,205 @@
 			"types": []
 		},
 		{
+			"name": "Tree2_mesh_frag",
+			"files": [
+				"Tree2_mesh.frag.glsl"
+			],
+			"type": "shader",
+			"inputs": [
+				{
+					"name": "wnormal",
+					"type": "vec3"
+				},
+				{
+					"name": "texCoord",
+					"type": "vec2"
+				},
+				{
+					"name": "eyeDir",
+					"type": "vec3"
+				},
+				{
+					"name": "wposition",
+					"type": "vec3"
+				},
+				{
+					"name": "lightPosition",
+					"type": "vec4"
+				}
+			],
+			"outputs": [
+				{
+					"name": "fragColor",
+					"type": "vec4"
+				}
+			],
+			"uniforms": [
+				{
+					"name": "shirr",
+					"type": "vec4[]"
+				},
+				{
+					"name": "ImageTexture",
+					"type": "sampler2D"
+				},
+				{
+					"name": "lightPos",
+					"type": "vec3"
+				},
+				{
+					"name": "lightType",
+					"type": "int"
+				},
+				{
+					"name": "lightDir",
+					"type": "vec3"
+				},
+				{
+					"name": "receiveShadow",
+					"type": "bool"
+				},
+				{
+					"name": "lightShadow",
+					"type": "int"
+				},
+				{
+					"name": "shadowMap",
+					"type": "sampler2D"
+				},
+				{
+					"name": "shadowsBias",
+					"type": "float"
+				},
+				{
+					"name": "shadowMapCube",
+					"type": "samplerCube"
+				},
+				{
+					"name": "lightProj",
+					"type": "vec2"
+				},
+				{
+					"name": "spotlightData",
+					"type": "vec2"
+				},
+				{
+					"name": "backgroundCol",
+					"type": "vec3"
+				},
+				{
+					"name": "envmapStrength",
+					"type": "float"
+				},
+				{
+					"name": "lightColor",
+					"type": "vec3"
+				}
+			],
+			"types": []
+		},
+		{
 			"name": "Wall1_mesh_frag",
 			"files": [
 				"Wall1_mesh.frag.glsl"
+			],
+			"type": "shader",
+			"inputs": [
+				{
+					"name": "wnormal",
+					"type": "vec3"
+				},
+				{
+					"name": "texCoord",
+					"type": "vec2"
+				},
+				{
+					"name": "eyeDir",
+					"type": "vec3"
+				},
+				{
+					"name": "wposition",
+					"type": "vec3"
+				},
+				{
+					"name": "lightPosition",
+					"type": "vec4"
+				}
+			],
+			"outputs": [
+				{
+					"name": "fragColor",
+					"type": "vec4"
+				}
+			],
+			"uniforms": [
+				{
+					"name": "shirr",
+					"type": "vec4[]"
+				},
+				{
+					"name": "ImageTexture",
+					"type": "sampler2D"
+				},
+				{
+					"name": "lightPos",
+					"type": "vec3"
+				},
+				{
+					"name": "lightType",
+					"type": "int"
+				},
+				{
+					"name": "lightDir",
+					"type": "vec3"
+				},
+				{
+					"name": "receiveShadow",
+					"type": "bool"
+				},
+				{
+					"name": "lightShadow",
+					"type": "int"
+				},
+				{
+					"name": "shadowMap",
+					"type": "sampler2D"
+				},
+				{
+					"name": "shadowsBias",
+					"type": "float"
+				},
+				{
+					"name": "shadowMapCube",
+					"type": "samplerCube"
+				},
+				{
+					"name": "lightProj",
+					"type": "vec2"
+				},
+				{
+					"name": "spotlightData",
+					"type": "vec2"
+				},
+				{
+					"name": "backgroundCol",
+					"type": "vec3"
+				},
+				{
+					"name": "envmapStrength",
+					"type": "float"
+				},
+				{
+					"name": "lightColor",
+					"type": "vec3"
+				}
+			],
+			"types": []
+		},
+		{
+			"name": "palette_002_mesh_frag",
+			"files": [
+				"palette_002_mesh.frag.glsl"
 			],
 			"type": "shader",
 			"inputs": [

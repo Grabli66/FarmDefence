@@ -6,12 +6,12 @@ project.addLibrary("C:/Armory/armsdk/armory");
 project.addLibrary("C:/Armory/armsdk/iron");
 project.addLibrary("C:/Armory/armsdk/lib/haxebullet");
 project.addAssets("C:/Armory/armsdk/lib/haxebullet/js/ammo/ammo.js", { notinlist: true });
+project.addParameter('arm.Player');
+project.addParameter("--macro keep('arm.Player')");
 project.addParameter('armory.trait.physics.bullet.RigidBody');
 project.addParameter("--macro keep('armory.trait.physics.bullet.RigidBody')");
 project.addParameter('armory.trait.physics.bullet.PhysicsWorld');
 project.addParameter("--macro keep('armory.trait.physics.bullet.PhysicsWorld')");
-project.addParameter('arm.Player');
-project.addParameter("--macro keep('arm.Player')");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Axe_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Axe_mesh.vert.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Axe_shadowmap.frag.glsl");
@@ -21,6 +21,7 @@ project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Girl_armskin_shadowmap.vert.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Ground_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Ground_mesh.vert.glsl");
+project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Ground_shadowmap.vert.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Material_001_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Material_002_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Material_005_mesh.frag.glsl");
@@ -30,6 +31,7 @@ project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Material_009_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Material_armskin_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Material_mesh.frag.glsl");
+project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Material_mesh.vert.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Road_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Tree2_mesh.frag.glsl");
 project.addShaders("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Shaders/Wall1_mesh.frag.glsl");
@@ -73,6 +75,7 @@ project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/en
 project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/meshes/action_Armature.001_TreeAnimation.001.arm", { notinlist: true });
 project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/meshes/action_Armature.001_armorypose.arm", { notinlist: true });
 project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/meshes/action_Armature.002_Idle.arm", { notinlist: true });
+project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/meshes/action_Armature.002_Strike.arm", { notinlist: true });
 project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/meshes/action_Armature.002_Walk.arm", { notinlist: true });
 project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/meshes/action_Armature.002_armorypose.arm", { notinlist: true });
 project.addAssets("C:/Workspace/FarmDefence/build_FarmDefence/compiled/Assets/meshes/action_Armature_TreeAnimation.arm", { notinlist: true });

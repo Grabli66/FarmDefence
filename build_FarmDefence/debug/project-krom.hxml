@@ -45,11 +45,11 @@
 -D kha
 -D kha_version=1807
 -js krom\krom.js.temp
+arm.Player
+--macro keep('arm.Player')
 armory.trait.physics.bullet.RigidBody
 --macro keep('armory.trait.physics.bullet.RigidBody')
 armory.trait.physics.bullet.PhysicsWorld
 --macro keep('armory.trait.physics.bullet.PhysicsWorld')
-arm.Player
---macro keep('arm.Player')
 -debug
 -main Main
